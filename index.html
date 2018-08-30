@@ -16,34 +16,44 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <style>@import url("https://fonts.googleapis.com/css?family=Special+Elite");
   </style>
-  
+
   <p style="font-family: industry; font-weight: bold; text-transform: uppercase; font-size: 46px;"> Hey sup
   <form action="" method="get">
      <label for="pswd">Enter your password: v8 </label>
-    <input type="password" id="pswd">
-    <input type="submit" value="Submit" onclick="checkPswd()" />
-    
+     <input type="password" id="pswd" onkeypress="return searchKeyPress(event);" />
+     <input type="button" id="btnSearch" Value="Search" onclick="checkPswd();" />
   </form>
-
-  <!--<button id="go" onclick="checkPswd();">Click me</button> -->
 </p>
-  
+
+
+<script type="text/javascript">
+    function checkPswd() {
+        var confirmPassword = "admin";
+        var password = document.getElementById("pswd").value;
+        if (password == confirmPassword) {
+             window.location="welcome.html";
+        }
+        else{
+            alert("Passwords do not match.");
+        }
+    }
+</script>
+
+<script>
+function searchKeyPress(e)
+{
+    // look for window.event in case event isn't passed in
+    e = e || window.event;
+    if (e.keyCode == 13)
+    {
+        document.getElementById('btnSearch').click();
+        return false;
+    }
+    return true;
+}
+</script>
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd0wRYRuA2KB19iKctyh74JtUD8VRqUc5y65-gN1lDxS8hhdA/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-<script type="text/javascript">
-  function checkPswd() {
-      var confirmPassword = "letmein";
-      var password = document.getElementById("pswd").value;    
 
-    if (password == confirmPassword) {
-           window.location="stephenandcaroline.fun/welcome.html";
-      }
-      else{
-          alert("Passwords do not match.");
-      }
-
-  }
-</script>
 </body>
-
 </html>
