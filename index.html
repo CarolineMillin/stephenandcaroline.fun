@@ -19,9 +19,9 @@
 
   <p style="font-family: industry; font-weight: bold; text-transform: uppercase; font-size: 46px;"> Hey sup
   <form action="" method="get">
-     <label for="pswd">Enter your password: v8 </label>
+     <label for="pswd">Type in the secret code that we gave out to everyone on the invites: </label>
      <input type="password" id="pswd" onkeypress="return searchKeyPress(event);" />
-     <input type="button" id="btnSearch" Value="Search" onclick="checkPswd();" />
+     <input type="button" id="go" Value="SUBMIT" onclick="checkPswd();" />
   </form>
 </p>
 
@@ -46,14 +46,13 @@ function searchKeyPress(e)
     e = e || window.event;
     if (e.keyCode == 13)
     {
-        document.getElementById('btnSearch').click();
+        document.getElementById('go').click();
         return false;
     }
     return true;
 }
 </script>
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd0wRYRuA2KB19iKctyh74JtUD8VRqUc5y65-gN1lDxS8hhdA/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 </body>
 </html>
