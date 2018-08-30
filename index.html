@@ -21,7 +21,7 @@
   <form action="" method="get">
      <label for="pswd">Enter your password: v3 </label>
     <input type="password" id="pswd">
-    <input type="submit" id="go" value="Submit" onclick="checkPswd();" />
+    <input type="submit" value="Submit" onclick="checkPswd();" />
     
   </form>
 </p>
@@ -31,9 +31,7 @@
 <script type="text/javascript">
   function checkPswd() {
       var confirmPassword = "letmein";
-      var password = document.getElementById("pswd").value;
-      var go = document.getElementById("go");
-      
+      var password = document.getElementById("pswd").value;      
     if (password == confirmPassword) {
            window.location="welcome.html";
       }
