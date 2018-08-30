@@ -4,16 +4,19 @@ html {
     text-align: center;
   }
 
+  @import url("https://use.typekit.net/atu3jmx.css");
+  @import url("https://fonts.googleapis.com/css?family=Special+Elite");
+
   h1{
-      font-family: 'Special Elite', serif;
+      font-family: "Special Elite", serif;
   }
 
   h2{
-      font-family: 'industry', sans-serif;
-      font-weight: bold;
+      font-family: "industry", sans-serif;
+      font-weight: 900;
   }
 
   p{
-    font-family: 'industry', sans-serif;
+    font-family: "industry", sans-serif;
     font-weight: normal;
   }
