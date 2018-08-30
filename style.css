@@ -1,32 +1,51 @@
 html {
-    background: #3ba7ff;
-    -webkit-font-smoothing: antialiased;
-    text-align: center;
-  }
+  background: #3ba7ff;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+}
 
-  @import url("https://use.typekit.net/atu3jmx.css");
+@import url("https://use.typekit.net/atu3jmx.css");
 
-  @import url("https://fonts.googleapis.com/css?family=Special+Elite");
+@import url("https://fonts.googleapis.com/css?family=Special+Elite");
 
-  h1{
-      font-family: "Special Elite", serif;
-  }
+h1{
+    font-family: "Special Elite";
+}
 
-  h2{
-      font-family: "industry", sans-serif;
-      font-weight: 900;
-      text-transform: uppercase;
-  }
-
-  p{
+h2{
     font-family: "industry", sans-serif;
-    font-weight: normal;
+    font-weight: 900;
     text-transform: uppercase;
+}
 
-  }
+p{
+  font-family: "industry", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
 
-  .codebox {
-    font-family: "industry", sans-serif;
-    font-weight: normal;
-    text-transform: uppercase;
-  }
+}
+
+.codebox {
+  font-family: "industry", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+#go {
+  font-family: "industry", sans-serif;
+  font-weight: normal;
+  width: 200px;
+  height: 50px;
+  text-transform: uppercase;
+  background-color: #ffaa00;
+  border: none;
+  border-radius: 3px;
+  transition: background-color .20s ease-in-out;
+
+}
+
+  #go:hover {
+  background-color: #ff9900;
+  box-shadow: 0px 0px 2px #444444
+   }
+
