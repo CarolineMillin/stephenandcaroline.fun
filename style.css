@@ -18,7 +18,7 @@ h2{
     text-transform: uppercase;
 }
 
-p{
+p {
   font-family: "industry", sans-serif;
   font-weight: normal;
   text-transform: uppercase;
@@ -29,9 +29,11 @@ p{
   font-family: "industry", sans-serif;
   font-weight: normal;
   text-transform: uppercase;
+  padding: 0px 10px 0px 10px;
 }
 
 #go {
+  -webkit-appearance: none;
   font-family: "industry", sans-serif;
   font-weight: normal;
   width: 200px;
@@ -39,7 +41,7 @@ p{
   text-transform: uppercase;
   background-color: #ff8a65;
   border: none;
-  border-radius: 3px;
+  border-radius: .5em;
   transition: background-color .20s ease-in-out;
 }
 
@@ -49,16 +51,21 @@ p{
    }
 
   input {
+    -webkit-appearance: none;
     width: 40%;
     height: 50px;
-    border-radius: 5px;
+    border-radius: .5em;
     font-size: large;
+    border: none;
+    background-color: #eeeeee;
   } 
 
   @media only screen and (max-width: 900px) {
+
   html{
     background: #ff8a65;
       }
+
   input {
         width: 60%;
         height: 50px;
@@ -71,11 +78,7 @@ p{
    #go {
         width: 40%;
         height: 50px;
-        text-transform: uppercase;
         background-color: #40c4ff;
-        border: none;
-        border-radius: 3px;
-        transition: background-color .20s ease-in-out;
       }
 
     }
