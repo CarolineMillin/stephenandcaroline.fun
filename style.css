@@ -84,7 +84,6 @@ p {
     border-radius: .5em;
     font-family: "Special Elite";
     text-align: center;
-  
     font-size: large;
     border: none;
     background-color: #eeeeee;
@@ -98,12 +97,7 @@ p {
 
   input {
         width: 60%;
-        height: 50px;
-        border-radius: 5px;
-        font-size: large;
-        border: none;
-        background-color: #eeeeee;
-      } 
+              } 
 
    #go {
         width: 40%;
@@ -111,7 +105,7 @@ p {
         background-color: #40c4ff;
       }
 
-      #submit {
+   #submit {
         width: 40%;
         height: 50px;
         background-color: #40c4ff;
