@@ -5,7 +5,6 @@ html {
 }
 
 @import url("https://use.typekit.net/atu3jmx.css");
-
 @import url("https://fonts.googleapis.com/css?family=Special+Elite");
 
 h1{
@@ -29,18 +28,40 @@ p {
 }
 
 body{
+  font-family: "industry", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
   margin: 0;
 }
 
+label{
+  font-family: "industry", sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 1.5rem;
+ }
+
+input {
+  -webkit-appearance: none;
+  width: 40%;
+  height: 50px;
+  border-radius: .5em;
+  font-family: "Special Elite";
+  text-align: center;
+  font-size: large;
+  border: none;
+  background-color: #eeeeee;
+  margin-bottom: 20px;
+} 
 
 .content{
   height: 33%;
   width: 100%;
   background-color: #ff8a65;
-  box-shadow: 0px 0px 30px #0c5170;
+  box-shadow: 0px 0px 300px #0f76a7;
   position: fixed;
-top: 33%;
-padding: 10px 0px 10px 0px;
+  top: 33%;
+  padding: 10px 0px 10px 0px;
 
  }
 
@@ -62,12 +83,11 @@ padding: 10px 0px 10px 0px;
   background-color: #ff8a65;
   border: none;
   border-radius: .5em;
-  transition: background-color .20s ease-in-out;
+  transition: .20s ease-in-out;
 }
 
   #go:hover {
   background-color: #ffaa65;
-  box-shadow: 0px 0px 2px #212121
    }
 
    #submit {
@@ -88,23 +108,6 @@ padding: 10px 0px 10px 0px;
     box-shadow: 0px 0px 2px #212121
      }
 
-   label{
-    font-family: "industry", sans-serif;
-    font-weight: normal;
-    text-transform: uppercase;
-   }
-
-  input {
-    -webkit-appearance: none;
-    width: 40%;
-    height: 50px;
-    border-radius: .5em;
-    font-family: "Special Elite";
-    text-align: center;
-    font-size: large;
-    border: none;
-    background-color: #eeeeee;
-  } 
 
   @media only screen and (max-width: 900px) {
 
@@ -122,10 +125,25 @@ padding: 10px 0px 10px 0px;
         background-color: #40c4ff;
       }
 
+      #go:hover {
+        background-color: #6ccdfa;
+         }
+
    #submit {
         width: 40%;
         height: 50px;
         background-color: #40c4ff;
       }
+
+    .content{
+        height: 33%;
+        width: 100%;
+        background-color: #40c4ff;
+        box-shadow: 0px 0px 300px #b95d41;
+        position: fixed;
+        top: 33%;
+        padding: 10px 0px 10px 0px;
+      
+       }   
 
     }
