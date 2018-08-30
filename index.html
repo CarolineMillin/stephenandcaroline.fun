@@ -21,7 +21,7 @@
   <form action="" method="get">
      <label for="pswd">Enter your password: </label>
     <input type="password" id="pswd">
-    <input type="button" value="Submit" onclick="checkPswd();" />
+    <input type="button" id="myBtn" value="Submit" onclick="checkPswd();" />
     
   </form>
 </p>
@@ -38,6 +38,12 @@
       else{
           alert("Passwords do not match.");
       }
+
+      password.addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+        document.getElementById("myBtn").click();
+    }
   }
 </script>
 </body>
