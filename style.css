@@ -56,12 +56,12 @@ input {
 
 
 .centerbox{
-  height: 33%;
-  width: 100%;
+  height: 100vh;
+  width: 20%;
+  margin: 0% 0% 0% 80%;
   background-color: #ff8a65;
   box-shadow: 0px 0px 300px #0f76a7;
   position: fixed;
-  top: 33%;
   padding: 30px 0px 10px 0px;
 
  }
@@ -115,7 +115,7 @@ margin: auto;
      }
 
 
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 1000px) {
 
   html{
     background: #ff8a65;
@@ -146,14 +146,20 @@ margin: auto;
         background-color: #40c4ff;
       }
 
-    .centerbox{
 
-      height: 50%;
-      width: 100%;
-      top: 25%;
-      padding: 25px 0px 0px 0px;
-      background-color: #40c4ff;
-      box-shadow: 0px 0px 300px #b95d41;
-       }   
+      .centerbox{
+        height: 50%;
+        width: 100%;
+        background-color: #40c4ff;
+        box-shadow: 0px 0px 300px #b95d41;
+        position: fixed;
+        top: 25%;
+        padding: 5px 0px 5px 0px;
+        margin: auto;
+      
+       }
 
-    }
+       .gate{
+         margin-top: 10%;
+       }
+    
