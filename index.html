@@ -6,47 +6,40 @@
   <link rel="stylesheet" href="https://use.typekit.net/atu3jmx.css">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="How long can we make the website descripti"/>
-  <title>stephenkender.com - Welcome to Wonderland</title>
-  <link rel="shortcut icon" type="image/png" href="https://stephenkender.com/favicon.png"/>
+  <title>Stephen and Caroline's Wedding - NOT the Vampire Diaries one</title>
+  <link rel="shortcut icon" type="image/png" href="https://stephenandcaroline.fun/favicon.png"/>
   
 </head>
   
 <body>
-  <style>@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600,900");
-@import url("https://fonts.googleapis.com/css?family=Special+Elite");
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>@import url("https://fonts.googleapis.com/css?family=Special+Elite");
   </style>
   
   <p style="font-family: industry; font-weight: bold; text-transform: uppercase; font-size: 46px;"> Hey sup
   <form action="" method="get">
     <label for="password">Enter your password: </label>
     <input type="password" name="password" id="password" required>
+    <input type="button" value="Submit" onclick="checkPswd();" />
     
   </form>
     
   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd0wRYRuA2KB19iKctyh74JtUD8VRqUc5y65-gN1lDxS8hhdA/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 </p>
   
-  <SCRIPT>
-function passWord() {
-var testV = 1;
-var pass1 = prompt('Please Enter Your Password',' ');
-while (testV < 3) {
-if (!pass1) 
-history.go(-1);
-if (pass1.toLowerCase() == "letmein") {
-alert('You Got it Right!');
-window.open('protectpage.html');
-break;
-} 
-testV+=1;
-var pass1 = 
-prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
-}
-if (pass1.toLowerCase()!="password" & testV ==3) 
-history.go(-1);
-return " ";
-} 
-</SCRIPT>
+<script type="text/javascript">
+  function checkPswd() {
+      var confirmPassword = "letmein";
+      var password = document.getElementById("pswd").value;
+      if (password == confirmPassword) {
+           window.location="welcome.html";
+      }
+      else{
+          alert("Passwords do not match.");
+      }
+  }
+</script>
 <CENTER>
 <FORM>
 <input type="button" value="Enter Protected Area" onClick="passWord()">
