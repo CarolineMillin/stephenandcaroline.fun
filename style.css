@@ -38,7 +38,7 @@ label{
   font-family: "industry", sans-serif;
   font-weight: normal;
   text-transform: uppercase;
-  line-height: 1.5rem;
+  line-height: 1.75rem;
  }
 
 input {
@@ -51,18 +51,24 @@ input {
   font-size: large;
   border: none;
   background-color: #eeeeee;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 } 
 
-.content{
+
+.centerbox{
   height: 33%;
   width: 100%;
   background-color: #ff8a65;
   box-shadow: 0px 0px 300px #0f76a7;
   position: fixed;
   top: 33%;
-  padding: 10px 0px 10px 0px;
+  padding: 30px 0px 10px 0px;
 
+ }
+
+ .gate {
+height: 50%;
+margin: auto;
  }
 
 
@@ -115,19 +121,24 @@ input {
     background: #ff8a65;
       }
 
+  h1{
+    font-size: 1.75rem;
+      }
+      
   input {
         width: 60%;
+        margin-bottom: 0px;
               } 
 
    #go {
-        width: 40%;
+        width: 30%;
         height: 50px;
         background-color: #40c4ff;
       }
 
-      #go:hover {
-        background-color: #6ccdfa;
-         }
+  #go:hover {
+        background-color: #8fd2f1;
+        }
 
    #submit {
         width: 40%;
@@ -135,15 +146,14 @@ input {
         background-color: #40c4ff;
       }
 
-    .content{
-        height: 33%;
-        width: 100%;
-        background-color: #40c4ff;
-        box-shadow: 0px 0px 300px #b95d41;
-        position: fixed;
-        top: 33%;
-        padding: 10px 0px 10px 0px;
-      
+    .centerbox{
+
+      height: 50%;
+      width: 100%;
+      top: 25%;
+      padding: 25px 0px 0px 0px;
+      background-color: #40c4ff;
+      box-shadow: 0px 0px 300px #b95d41;
        }   
 
     }
