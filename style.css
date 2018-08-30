@@ -5,6 +5,7 @@ html {
   }
 
   @import url("https://use.typekit.net/atu3jmx.css");
+
   @import url("https://fonts.googleapis.com/css?family=Special+Elite");
 
   h1{
@@ -14,9 +15,18 @@ html {
   h2{
       font-family: "industry", sans-serif;
       font-weight: 900;
+      text-transform: uppercase;
   }
 
   p{
     font-family: "industry", sans-serif;
     font-weight: normal;
+    text-transform: uppercase;
+
+  }
+
+  .codebox {
+    font-family: "industry", sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
   }
