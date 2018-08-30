@@ -53,6 +53,26 @@ p {
   box-shadow: 0px 0px 2px #212121
    }
 
+   #submit {
+    -webkit-appearance: none;
+    font-family: "industry", sans-serif;
+    font-weight: normal;
+    width: 200px;
+    height: 50px;
+    text-transform: uppercase;
+    background-color: #ff8a65;
+    border: none;
+    border-radius: .5em;
+    transition: background-color .20s ease-in-out;
+  }
+  
+    #submit:hover {
+    background-color: #ffaa65;
+    box-shadow: 0px 0px 2px #212121
+     }
+
+   
+
   input {
     -webkit-appearance: none;
     width: 40%;
@@ -79,6 +99,12 @@ p {
       } 
 
    #go {
+        width: 40%;
+        height: 50px;
+        background-color: #40c4ff;
+      }
+
+      #submit {
         width: 40%;
         height: 50px;
         background-color: #40c4ff;
