@@ -1,5 +1,7 @@
 html {
   background: #40c4ff;
+  background-image:  url("https://stephenandcaroline.fun/bg.png");
+  
   -webkit-font-smoothing: antialiased;
   text-align: center;
 }
@@ -54,21 +56,32 @@ input {
   margin-bottom: 10px;
 } 
 
+#pswd {
+  -webkit-appearance: none;
+  width: 60%;
+  height: 50px;
+  border-radius: .5em;
+  font-family: "Special Elite";
+  text-align: center;
+  font-size: x-large;
+  border: none;
+  background-color: #eeeeee;
+}
 
 .centerbox{
   height: 100vh;
-  width: 20%;
-  margin: 0% 0% 0% 80%;
+  width: 400px;
+  right:0px;
   background-color: #ff8a65;
   box-shadow: 0px 0px 300px #0f76a7;
-  position: fixed;
-  padding: 30px 0px 10px 0px;
+  position: absolute;
+  padding: 0px 10px 0px 10px;
 
  }
 
  .gate {
 height: 50%;
-margin: auto;
+padding-top: 25%;
  }
 
 
@@ -83,7 +96,7 @@ margin: auto;
   -webkit-appearance: none;
   font-family: "industry", sans-serif;
   font-weight: normal;
-  width: 200px;
+  width: 150px;
   height: 50px;
   text-transform: uppercase;
   background-color: #ff8a65;
