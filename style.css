@@ -102,12 +102,10 @@ padding-top: 45%;
   border: none;
   border-radius: .5em;
   transition: .20s ease-in-out;
-  box-shadow: 0px 0px 0px 0px #212121;
 }
 
   #go:hover {
   background-color: #40d4ff;
-  box-shadow: 0px 0px 2px 0px  #212121;
    }
 
    #submit {
@@ -164,7 +162,7 @@ padding-top: 45%;
 
 
       .centerbox{
-        height: 50%;
+        height: 60%;
         width: 100%;
         background-color: #40c4ff;
         box-shadow: 0px 0px 300px #b95d41;
