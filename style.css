@@ -1,6 +1,5 @@
 html {
   background: #40c4ff;
-  
   -webkit-font-smoothing: antialiased;
   text-align: center;
 }
@@ -139,15 +138,17 @@ padding-top: 45%;
   h1{
     font-size: 1.75rem;
       }
+  
       
   input {
         width: 60%;
         margin-bottom: 0px;
+        height: 30px;
               } 
 
    #go {
         width: 30%;
-        height: 50px;
+        height: 40px;
         background-color: #40c4ff;
       }
 
@@ -175,6 +176,6 @@ padding-top: 45%;
        }
 
        .gate{
-         margin-top: 10%;
+         margin-top: -40%;
        }
     
